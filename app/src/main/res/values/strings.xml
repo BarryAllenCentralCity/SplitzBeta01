@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Splitz01</string>
+    <string name="welcome_to_splitz">Welcome to Splitz!</string>
+    <string name="group_size">Select Group Size:</string>
+    <string name="two">Two</string>
+    <string name="four">Four</string>
+    <string name="three">Three</string>
+    <string name="five">Five</string>
+    <string name="select">Select</string>
+    <string name="group_two_people">Group of Two People</string>
+    <string name="_1">1.</string>
+    <string name="name">Name</string>
+    <string name="_2">2.</string>
+</resources>

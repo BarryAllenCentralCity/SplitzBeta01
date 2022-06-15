@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/twoPeopleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/group_two_people"
+        android:textSize="20sp"
+        android:layout_marginTop="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="@string/_1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twoPeopleTV" />
+
+    <EditText
+        android:id="@+id/etP1"
+        android:hint="@string/name"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        app:layout_constraintStart_toEndOf="@+id/textView01"
+        app:layout_constraintTop_toBottomOf="@+id/twoPeopleTV"
+        android:layout_marginStart="15sp"/>
+
+    <EditText
+        android:id="@+id/balance01"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/etP1"
+        app:layout_constraintTop_toBottomOf="@id/twoPeopleTV" />
+
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:text="@string/_2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twoPeopleTV" />
+
+    <EditText
+        android:id="@+id/etP2"
+        android:hint="@string/name"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView02"
+        app:layout_constraintTop_toBottomOf="@+id/twoPeopleTV"
+        android:layout_marginStart="15sp"/>
+
+    <EditText
+        android:id="@+id/balance02"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/etP2"
+        app:layout_constraintTop_toBottomOf="@id/twoPeopleTV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
